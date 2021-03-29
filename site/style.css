@@ -1,0 +1,39 @@
+h1 {
+			text-align: center;
+			color: black;
+		}
+		p.class {
+			text-align: center;
+			font-size: 14px;
+			color: black;
+		}
+		h2 {
+			text-align: center;
+		}
+		h2.special {
+			text-align: left;
+		}
+		#title {
+			color: purple;
+		}
+		ul {
+			width: 400px;
+		}
+		div.websites li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: #CDE1FF;
+			color: black;
+			border: 2px solid #FFD79A;
+			font-size: 30px;
+			width: 200px;
+			text-align: center;
+			display: block;
+			margin-bottom: 10px;
+		}
+		a:hover, a:active {
+			background-color: #FFD79A;
+			border: 2px solid #CDE1FF;
+		}
