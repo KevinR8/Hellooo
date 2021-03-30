@@ -1,39 +1,45 @@
+	body {
+		margin: 0;
+		padding: 0;
+	}
 h1 {
 			text-align: center;
 			color: black;
+			background-color: #1E90FF;
+			border: 4px solid black;
 		}
-		p.class {
+	
+h2 {
 			text-align: center;
-			font-size: 14px;
-			color: black;
+			background-color: dodgerblue;
+			border:2px dashed black;
 		}
-		h2 {
-			text-align: center;
-		}
-		h2.special {
-			text-align: left;
-		}
-		#title {
-			color: purple;
-		}
-		ul {
+ul {
 			width: 400px;
 		}
-		div.websites li {
+	div.websites li {
 			list-style: none;
 		}
-		a:link, a:visited {
+a:link, a:visited {
 			text-decoration: none;
-			background-color: #CDE1FF;
+			background-color: #FF8D1E;
 			color: black;
-			border: 2px solid #FFD79A;
+			border: 2px solid black;
 			font-size: 30px;
-			width: 200px;
+			width: 400px;
 			text-align: center;
 			display: block;
 			margin-bottom: 10px;
 		}
-		a:hover, a:active {
-			background-color: #FFD79A;
-			border: 2px solid #CDE1FF;
+a:hover, a:active {
+			background-color: white;
+			border: 2px solid #1E90FF;
 		}
+p {
+	background-color: #FF8D1E;
+	border: 2px solid black;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
