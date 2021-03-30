@@ -1,0 +1,23 @@
+body {
+	width: 300px;
+	font-size: 20px;
+}
+h1 {
+	font-size: 1.5em;
+	text-align: right;
+}
+p {
+	font-family: Courier New;
+	margin-bottom: 10px;
+	width: 600px;
+}
+p.desc {
+	width: 300px;
+	font-family: helvetica;
+}
+
+ul.desc {
+	list-style: lower-greek;
+	background-color: #FFEBCD;
+	width: 700px;
+}
