@@ -8,16 +8,15 @@ h1 {
 			background-color: #1E90FF;
 			border: 4px solid black;
 		}
-	
 h2 {
 			text-align: center;
 			background-color: dodgerblue;
-			border:2px dashed black;
+			border:2px solid black;
 		}
 ul {
-			width: 400px;
+			
 		}
-	div.websites li {
+div.websites li {
 			list-style: none;
 		}
 a:link, a:visited {
@@ -35,11 +34,18 @@ a:hover, a:active {
 			background-color: white;
 			border: 2px solid #1E90FF;
 		}
-p {
+#lyrics {
 	background-color: #FF8D1E;
 	border: 2px solid black;
 	margin-bottom: 30px;
 	text-align: center;
 	font-size: 14px;
 	color: black;
+}
+#Gunna {
+	float: right;
+	background-color: #FF8D1E;
+}
+#walmart {
+	
 }

@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#para {
+	background-color: #00FFFF;
+}
+.box {
+	width: 50%;
+	border: 1px solid black;
+	float: left;
+	padding: 10px
+}
+#red {
+	background-color: red;
+}
+#purple {
+	background-color: purple;
+}
+section {
+	clear: left;
+}
+#smiley {
+	background-color: powderblue;
+	width: 33%;
+	height: 600px;
+}
+#Leye {
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	border: 1px solid black;
+	position: relative;
+
+}
+#Reye {
+	width: 50px;
+	height: 50px;
+	background-color: teal;
+	border: 1px solid black;
+}
+#Sbot {
+	width: 50px;
+	height: 50px;
+	background-color: tomato;
+	border: 1px solid black;
+	float: right;
+	clear: right;
+}
+
