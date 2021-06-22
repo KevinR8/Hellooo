@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#top {
+    background-color: red;
+}
+
+#main p {
+    width: 33%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+
+#mainf {
+    background-color: dodgerblue;
+    padding-top: 60px;
+    display: block;
+    color
+}
+
+#mains {
+    background-color: brown;
+}
+
+#mainl {
+    background-color: sandybrown;
+}
