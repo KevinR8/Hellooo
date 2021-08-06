@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <button onclick="location.href='/cssLayout/index.html';" id="btnHome">
+        Go Home
+      </button>
+      <h1>Calorie Calculator</h1>
+      <p id="welcome">Welcome!</p>
+    </header>
+
+    <div id="input">
+      <p>
+        Male<input type="radio" name="sex" id="male" value="male" />
+        Female<input type="radio" name="sex" id="female" value="female" />
+      </p>
+      <p>
+        Height
+        <input type="number" class="height input" />
+      </p>
+
+      <p>
+        Weight
+        <input type="number" class="weight input" />
+      </p>
+
+      <p>
+        Age
+        <input type="number" class="age input" />
+      </p>
+
+      <p>
+        Intensity
+        <input type="number" class="training input" />
+      </p>
+
+      <button class="submit btn">Submit</button>
+      <button class="reset btn">Clear</button>
+
+      <p id="response"></p>
+
+      <p id="msg">
+        Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample
+        Sample Sample Sample Sample Sample Sample Sample Sample Sample
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="clear.js"></script>
+  </body>
+</html>
